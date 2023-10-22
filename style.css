@@ -1,0 +1,48 @@
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #686de0;
+    overflow: hidden;
+    margin: 0;
+    padding:20px;
+}
+
+.container {
+    background-color: white;
+    padding:50px 20px;
+    width:800px;
+    text-align:center;
+    border-radius: 10px;
+}
+button {
+    border:none;
+    background-color: blueviolet;
+    color:#fff;
+    font-size: 14px;
+    padding:15px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+h3 {
+    opacity:0.5;
+    margin:0;
+    letter-spacing:2px;
+
+}
+.joke {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 600px;
+    margin:50px auto;
+    letter-spacing:1px;
+
+}
+.btn:focus {
+   outline:none;
+}
+.btn:active {
+    transform : scale(0.98);
+}
